@@ -1,12 +1,53 @@
+* {
+    /* outline: 1px solid red; */
+    font-family: Great Vibes;
+    font-size: 40px;
+    background-color: #123d68;
+    color: #39CCCC;
+    text-align: center;
+    /* box-sizing: border-box; */
+    /* margin: auto; */
+}
+
+
+
 .header {
     display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
 }
 
 .rps {
     display: flex;
+    justify-content: center;
 }
 
 .disabled {
+    opacity: 0.5;
     cursor: not-allowed;
     pointer-events: none;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+}
+
+.reset-btn {
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-align: center;
+
+}
+
+.reset-btn:hover {
+    background-color: #032444;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
