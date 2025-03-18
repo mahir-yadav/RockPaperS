@@ -4,63 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <!-- upar ka mamla  -->
-    <div class="header">
-        <div class="score">
-            <h1>You</h1>
-            <p class="pscore">0</p>
+    <main>
+        <!-- upar ka mamla  -->
+        <div class="header">
+            <div class="score">
+                <h1>You</h1>
+                <p class="pscore">0</p>
+            </div>
+            <div class="score">
+                <h1>VS</h1>
+            </div>
+            <div class="score">
+                <h1>Computer</h1>
+                <p class="cscore">0</p>
+            </div>
         </div>
-        <div class="score">
-            <h1>VS</h1>
-        </div>
-        <div class="score">
-            <h1>Computer</h1>
-            <p class="cscore">0</p>
-        </div>
-    </div>
 
-    <!-- kon jita kon hara hr match ka result -->
-    <div class="results">
-        <h1>Results</h1>
-    </div>
-    <div class="finalresult"></div>
-    <div class="rps">
-        <div class="rock">
-            <img src="rock.png" alt="rock" height="200px" width="200px">
-            <h1>Rock</h1>
+        <!-- kon jita kon hara hr match ka result -->
+        <div class="results">   
+            <h1>Start playing by clicking on Rock Paper or Scissors!!</h1>
         </div>
-        <div class="paper">
-            <img src="paper.png" alt="paper" height="200px" width="200px">
-            <h1>Paper</h1>
+        <div class="finalresult"></div>
+        <div class="rps">
+            <div class="rock">
+                <img src="rock.png" alt="rock" height="200px" width="200px">
+                <h1>Rock</h1>
+            </div>
+            <div class="paper">
+                <img src="paper.png" alt="paper" height="200px" width="200px">
+                <h1>Paper</h1>
+            </div>
+            <div class="scissors">
+                <img src="scissors.png" alt="scissors" height="200px" width="200px">
+                <h1>Scissors</h1>
+            </div>
         </div>
-        <div class="scissors">
-            <img src="scissors.png" alt="scissors" height="200px" width="200px">
-            <h1>Scissors</h1>
+        <div class="reset">
+            <button class="reset-btn">Reset</button>
         </div>
-    </div>
-    <div class="reset">
-        <button class="reset-btn">Reset</button>
-    </div>
-    <!-- game over pr win lose aur play again
-    <div class="gameover">
-        <div class="gameovercontent">
-            <h1 id="resultmessage">result</h1>
-            <div id="animation">animation</div>
-            <button class="btn">Play Again</button>
-        </div>
-    </div> -->
-
-    <script src="app.js"></script>
+        <!-- game over pr win lose aur play again
+        <div class="gameover">
+            <div class="gameovercontent">
+                <h1 id="resultmessage">result</h1>
+                <div id="animation">animation</div>
+                <button class="btn">Play Again</button>
+            </div>
+        </div> -->
     <!-- footer -->
     <footer>
         <div class="footer">
             <h1>Made by GodMahir 2025</h1>
         </div>
     </footer>
+    <script src="app.js"></script>
+</main>
+
+
 </body>
 
 </html>

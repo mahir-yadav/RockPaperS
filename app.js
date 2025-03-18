@@ -72,7 +72,7 @@ function playRound(humanchoice, computerchoice) {
         if (humanScore == 5) {
             finalresult[0].textContent = "🥳 You Win"
         } else {
-            finalresult[0].textContent = "💀 You lose"
+            finalresult[0].textContent = "💀 You Lose"
         }
         rock[0].classList.add("disabled")
         paper[0].classList.add("disabled")
@@ -83,7 +83,7 @@ function playRound(humanchoice, computerchoice) {
 function resetgame() {
     humanScore = 0
     computerScore = 0
-    res = "Start playing by clicking on rock paper or scissors"
+    res = "Start playing by clicking on rock paper or scissors!!"
     pscore[0].textContent = humanScore
     cscore[0].textContent = computerScore
     results[0].textContent = res
